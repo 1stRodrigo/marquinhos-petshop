@@ -97,6 +97,14 @@ a:hover {
 #btn-mobile {
     display: none;
 }
+
+#btn:hover {
+    padding: 0.56rem 2.5rem;
+    color: var(--cor1);
+    transition: .2s;
+    background: var(--cor3);
+    box-shadow: 2px 4px 2px 1px rgba(0, 0, 0, 0.200);
+}
 /*---------inicio do site------------*/
 #conheça {
     display: flex;
@@ -124,6 +132,7 @@ a:hover {
 
 /*------------meio do site----------------*/
 #our-services {
+    margin: 3rem 1rem 5rem;
 
 }
 
@@ -157,16 +166,52 @@ a:hover {
 }
 
 #services {
-    display: flex;
-    gap: 8rem;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
     justify-content: center;
-    margin: 3rem 8rem;
+    margin-top: 5rem;
+    padding: 0rem 8rem;
+    width: 100%;
 }
 
-#services > ul > p {
+#services > aside > ul > p {
     margin: .3rem auto .5rem;
 }
 
+#curiosities {
+    margin: auto;
+}
+
+#life-dog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 2rem;
+}
+
+#curiosities > h2 {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-size: 2rem;
+}
+
+#services > aside > ul > div > h1 {
+    font-size: 6rem;
+}
+#services > aside > ul > div > p {
+    
+}
+
+#services > aside > ul {
+    margin: 4rem 0rem 0rem;
+}
+
+/*----------classes de seção----------*/
+.fases {
+    font-family: var(--fonte-padrao);
+    margin: 2rem;
+}
 
 
 /*---------classes de textos---------*/
@@ -178,6 +223,13 @@ a:hover {
     font-weight: 700;
 }
 
+.titles-main {
+    margin: 3rem auto 0.3rem;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+}
+
 .subtitle {
     list-style: none;
     font-family: var(--fonte-forte);
@@ -187,6 +239,20 @@ a:hover {
 
 .text-p {
     font-family: var(--fonte-padrao);
+}
+
+.width_p {
+    width: 15rem;
+}
+
+.lateral-numbers {
+    display: grid;
+    grid-template-columns: 2rem repeat(1, 1fr);
+}
+.number-side{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
 }
 
 .links-out {

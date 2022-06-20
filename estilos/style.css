@@ -266,7 +266,26 @@ a:hover {
     margin: 0px 3px;
     padding: 0px 6px;
 }
+/*------------classes de imagens--------------*/
 
+#logo_img {
+    width: 185px;
+    height: 45px;
+}
+
+.img_dog {
+    margin-right: 10rem;
+}
+
+.img_dog2 {
+    display: block;
+    margin: auto;
+}
+
+.img_cat {
+    width: 330px;
+    height: 340px;
+}
 
 /*-----------classes de alinhamento-----------*/
 

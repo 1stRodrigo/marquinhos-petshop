@@ -108,7 +108,7 @@ a:hover {
 /*---------inicio do site------------*/
 #conheça {
     display: flex;
-    height: 60vh;
+    max-height: 60vh;
     font-family: var(--fonte-padrao);
     background-image: linear-gradient(to top, var(--cor6), var(--cor7) );
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.189);
@@ -239,6 +239,10 @@ a:hover {
     font-family: var(--fonte-padrao);
 }
 
+.p_color {
+    color: var(--cor7);
+}
+
 .width_p {
     width: 15rem;
 }
@@ -253,15 +257,29 @@ a:hover {
 
 }
 
+.links-me {
+    color: var(--cor7);
+    transition: .2s;
+}
+
+.links-me:hover {
+    color: var(--cor4);
+    background-color: var(--cor7);
+    border: 1px solid var(--cor7);
+    border-radius: 15px;
+    margin: 0px 3px;
+    padding: 0px 6px;
+}
+
 .links-out {
-    color: var(--cor2);
+    color: var(--cor4);
     transition: .2s;
 }
 
 .links-out:hover {
     color: var(--cor4);
-    background-color: rgb(32, 238, 193);
-    border: 1px solid rgb(32, 238, 193);
+    background-color: var(--cor7);
+    border: 1px solid var(--cor7);
     border-radius: 15px;
     margin: 0px 3px;
     padding: 0px 6px;
@@ -292,6 +310,7 @@ a:hover {
 #topo-site {
     margin: auto auto auto 8rem;
 }
+
 @media (max-width: 600px) {
     
     #menu {
@@ -323,11 +342,13 @@ a:hover {
     }
     
     #btn-mobile {
+        font-family: var(--fonte-padrao);
         display: flex;
         padding: .5rem 1rem;
         font-size: 1rem;
         border: none;
         background: none;
+        color:  var(--cor7);
         cursor: pointer;
         gap: .5rem;
     }
@@ -360,5 +381,198 @@ a:hover {
         transform: rotate(-135deg);
         top: -7px;
     }
+    
+}
+
+@media (max-width: 2560px) {
+    #conheça {
+        font-size: 1.3rem;
+        align-content: center;
+    }
+    #topo-site {
+        margin: auto 0% auto auto;
+    }
+    picture {
+        margin: auto auto auto 0%;
+    }
+
+    .img_dog {
+        margin: auto auto auto 0%;
+    }
+
+    #our-serivces {
+        margin: auto;
+    }
+    #our-services > h1 {
+        font-size: 2.5rem;
+    }
+    #our-services > p {
+        font-size: 1.2rem;
+    }
+
+    #services {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: auto;
+        gap: 0%;
+        grid-template-columns: 300px 300px 300px;
+    }
+
+    #curiosities {
+        margin: auto;
+    }
+
+    #curiosities > h2 {
+        font-size: 2.5rem;
+    }
+
+    #life-dog {
+        font-weight: 500;
+        font-size: 1.4rem;
+        justify-content: center;
+        grid-template-columns: 400px 400px 400px;
+    }
+
+    footer > p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    #conheça {
+        max-height: 70vh;
+        font-size: 1rem;
+        align-content: center;
+    }
+    #topo-site {
+        margin: auto 0% auto auto;
+    }
+    picture {
+        margin: auto auto auto 0%;
+    }
+
+    .img_dog {
+        margin: auto auto auto 0%;
+    }
+
+    #our-serivces {
+        margin: auto;
+    }
+    #our-services > h1 {
+        font-size: 2rem;
+    }
+    #our-services > p {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    #services {
+        font-size: 1rem;
+        font-weight: 400;
+        margin: auto;
+        gap: 0%;
+        grid-template-columns: 300px 300px 300px;
+    }
+
+    #curiosities {
+        margin: auto;
+    }
+
+    #curiosities > h2 {
+        font-size: 2rem;
+    }
+
+    #life-dog {
+        font-weight: 400;
+        font-size: 1rem;
+        justify-content: center;
+        grid-template-columns: 400px 400px 400px;
+    }
+
+    footer > p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1230px) {
+    #life-dog {
+        grid-template-columns: 300px 300px 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #conheça {
+        max-height: 70vh;
+        font-size: 0.8rem;
+        align-content: center;
+    }
+    #topo-site {
+        margin: auto 0% auto auto;
+    }
+    picture {
+        margin: auto auto auto 0%;
+    }
+
+    .img_dog {
+        margin: auto auto auto 0%;
+    }
+
+    #our-serivces {
+        margin: auto;
+    }
+    #our-services > h1 {
+        font-size: 1.5rem;
+    }
+    #our-services > p {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    #services {
+        align-items: center;
+        grid-template-columns: 180px 250px 180px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin: auto;
+        gap: 5%;
+    }
+
+    #curiosities {
+        margin: auto;
+    }
+
+    #curiosities > h2 {
+        font-size: 1.7rem;
+    }
+
+    #life-dog {
+        font-weight: 400;
+        font-size: 0.8rem;
+        justify-content: center;
+        grid-template-columns: 250px 250px 250px;
+    }
+
+    footer > p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .width_p {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .width_p {
+        width: 7rem;
+    }
+
+    .contact {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
     
 }

@@ -602,4 +602,21 @@ a:hover {
         height: 200px;
     }
 
+    #services {
+        grid-template-columns: 250px;
+    }
+
+    #pic_cat {
+        height: 250px;
+    }
+
+    .img_cat {
+        width: 240px;
+        height: 250px;
+    }
+
+    #services > aside > ul {
+        margin: 4rem 0rem 4rem;
+    }
+
 }

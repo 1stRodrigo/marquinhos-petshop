@@ -574,5 +574,32 @@ a:hover {
 }
 
 @media (max-width: 700px) {
+    #services {
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    }
+
+    #pic_cat {
+        display: grid;
+        grid-row: 2;
+    }
     
+    #life-dog {
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 550px) {
+    #conheça {
+        font-size: 0.7rem;
+        padding: 1rem;
+    }
+
+    .img_dog {
+        width: 200px;
+        height: 200px;
+    }
+
 }

@@ -4,117 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marquinhos Pet-Shop</title>
+    <title>Dr.Petean: Clínica Veterinária</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <div class="gradiente-principal">
     <header id="header">
-        <ul id="menu" role="menu">
-            <li class="contact"><a href="">FONE: 3296-0258</a></li>
-            <li class="contact"><a href="">CAMPINAS/SP</a></li>
-        </ul>
-        <a href="#" id="logo"><img src="images/logo-marquinhos-vetor-teste1.png" alt="logo do site Marquinhos Pet-Shop" id="logo_img" ></a>
+        <a href="#" id="logo"><img src="images/logo/drpetean-logoSquareWhite2.png" alt="Logo Dr.Petean" class="" id="logo_header"></a>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a href="#">ÍNICIO</a></li>
-                <li><a href="#">CONTATO</a></li>
-                <li><a href="#">SOBRE</a></li>
-                <li><a href="#">PÁGINAS</a></li>
+                <li><a href="#">Ínicio</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Agendar</a></li>
             </ul>
         </nav>
     </header>
+    <section id="section-readme" class="container-initial fontdisplay">
+        <h1 class="titles-principal">Dr.Petean: Clinica Veterinaria</h1>
+        <p class="subtitles-principal fontpadrao fontlight">Clinica Veterinaria que oferece o suporte que você e seu pet merecem, trazendo diversas especialidades e atendimentos a animais silvestres.</p>
+
+            <div id="divoptions" class="div-options">
+                <a href="#" class="options-principal">Contate-nos via Whatsapp</a>
+                <a id="btn-atend" class="options-principal">Horário de atendimento</a>
+                <ul id="ul">
+                    <li>Os atendimentos são feitos por ordem de chegada.</li>
+                    <li class="fontbold">Segunda: 9:00h - 18:00h</li>
+                    <li class="fontbold">Terça: 9:00h - 18:00h</li>
+                    <li class="fontbold">Quarta: 9:00h - 18:00h</li>
+                    <li class="fontbold">Quinta: 9:00h - 18:00h</li>
+                    <li class="fontbold">Sexta: 9:00h - 18:00h</li>
+                    <li class="fontbold">Sábado: 9:00h - 18:00h</li>
+                </ul>
+            </div>
+            <img src="images/dogs/cão-peludinho-e-gato-fundo-2ballcolors.png" alt="algum dog ae" class="pic-principal">
+        </section>
+    </div>
     <main>
-        <div id="conheça">
-            <div id="topo-site">
-                <h1 class="title">Venha Conhecer</h1>
-                <p class="title">Preço justo e grande variedade de produtos desde a nutrição completa para cães, gatos, pássaros, roedores, peixes à Artigos de piscina, pesca e jardinagem.</p>
-                <button id="btn">CONHEÇA JÁ</button>
-            </div>
-            <picture>
-                <img src="images/spitzpng-teste1.png" alt="dog" class="img_dog">
-            </picture>
-        </div>
-        <section id="our-services">    
-            <h1 class="titles-main">Nossos Serviços</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quos, iusto laudantium voluptatem asperiores rem non esse ullam enim, eligendi, velit.</p>
-    
-            <section id="services">
-                <aside class="flex_column">       
-                <ul class="lateral-numbers">
-                    <div class="number-side">
-                        <h1>1</h1>
-                            <div class="width_p">
-                            <li class="subtitle">Veterinário</li>
-                            <p class="text-p"> Possuimos atendimento veterinário com <a href="#" class="links-out">Dr. Petean: Consultório Veterínario</a></p>
-                            </div>
-                    </div>
-                </ul>
-                <ul class="lateral-numbers">
-                    <div class="number-side">
-                        <h1>2</h1>
-                            <div class="width_p">
-                            <li class="subtitle">Entregas</li>
-                            <p class="text-p">Está precisando de algum produto e não pode sair de casa?Ligue e nós vamos até você!</p>
-                            </div>
-                    </div>
-                </ul>
-                </aside>
+        <section id="section-services">
+            <div class="content">
+                <h2 class="textcenter fontpadrao">Nossos Serviços</h2>
+                <div class="navigation">
+                    <img src="images/icons/navigation/arrow-left2.svg" alt="seta indicativa de navegação" class="arrow-navigation">
+                    <label class="relative" for="slide1" id="icone1"> 
+                        <div class="bar" id="bola1">
+                            <div id="ball-bg1" class="active"></div>
+                                <div class="absolute">   
+                                    <img src="https://img.icons8.com/ios-glyphs/90/000000/test-results.png" alt="Diagnósticos" class="icon_services icons-position" id="icone1 icons_id">
+                                </div>
+                        </div>
+                    </label>
+                    
+                    <label class="relative" for="slide2" id="icone2">
+                        <div class="bar" id="bola2">
+                            <div id="ball-bg2"></div>
+                                <div class="absolute">
+                                    <img src="https://img.icons8.com/material-outlined/90/000000/calendar--v1.png" alt="Vacinações" class="icon_services icons-position" id="icons_id icone2">
+                                </div>
+                        </div>
+                    </label>
 
-                    <picture id="pic_cat">
-                        <img src="images/pngwing.com.png" alt="cat" class="img_cat">
-                    </picture>
+                    <label class="relative" for="slide3" id="icone3">
+                        <div class="bar">
+                            <div id="ball-bg3"></div>
+                                <div class="absolute">
+                                    <img src="https://img.icons8.com/external-others-pike-picture/90/000000/external-Surgery-hospital-others-pike-picture-3.png" alt="Castrações" class="icon_services icons-position" id="icons_id">
+                                </div>
+                        </div>
+                    </label>
+
+                    <label class="relative" for="slide4" id="icone4">
+                        <div class="bar">
+                            <div id="ball-bg4"></div>
+                                <div class="absolute">
+                                    <img src="https://img.icons8.com/pastel-glyph/64/000000/dog-cone--v2.png" alt="Dermatologia" class="icon_services icons-position" id="icons_id">
+                                </div>
+                        </div>
+                    </label>
+                    
+                    <label class="relative" for="slide5" id="icone5">
+                        <div class="bar">
+                            <div id="ball-bg5"></div>
+                                <div class="absolute">
+                                    <img src="https://img.icons8.com/ios-filled/90/000000/veterinarian-male.png" alt="Clínico Geral" class="icon_services icons-position" id="icons_id">
+                                </div>
+                        </div>
+                    </label>
+                    <img src="images/icons/navigation/arrow-right.svg" alt="seta indicativa de navegação" class="arrow-navigation">
+                </div>
+
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+                    
+
+                    <div class="slide s1">
+                        <img src="images/services/veterinaria-cão.jpg" class="fotos-services" alt="Logo Dr Petean">
+
+                        <div id="resumo">
+                                <h1>Diagnósticos</h1>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet et natus sapiente atque laborum, hic enim iusto corrupti consequatur? Possimus dolorum dicta quia libero doloremque! Quisquam voluptatum repudiandae beatae est!</p>
+                        </div>
+                    </div>
+                    <div class="slide s2">
+                        <img src="images/services/vacina-canina.png" class="fotos-services" alt="Logo Dr Petean">
+
+                        <div id="resumo">
+                            <h1>Vacinas</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet et natus sapiente atque laborum, hic enim iusto corrupti consequatur? Possimus dolorum dicta quia libero doloremque! Quisquam voluptatum repudiandae beatae est!</p>
+                        </div>
+                    </div>
+                    <div class="slide s3">
+                        <img src="images/services/cast-dog.jpeg" class="fotos-services" alt="Logo Dr Petean">
+
+                        <div id="resumo">
+                            <h1>Castrações</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet et natus sapiente atque laborum, hic enim iusto corrupti consequatur? Possimus dolorum dicta quia libero doloremque! Quisquam voluptatum repudiandae beatae est!</p>
+                        </div>
+                    </div>
+                    <div class="slide s4">
+                        <img src="images/services/cao-alergico.jpg" class="fotos-services" alt="Logo Dr Petean">
+
+                        <div id="resumo">
+                            <h1>Dermatologia</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet et natus sapiente atque laborum, hic enim iusto corrupti consequatur? Possimus dolorum dicta quia libero doloremque! Quisquam voluptatum repudiandae beatae est!</p>
+                        </div>
+                    </div>
+                    <div class="slide s5">
+                        <img src="images/services/clin-geral.jpg" class="fotos-services" alt="Logo Dr Petean">
+                        
+                        <div id="resumo">
+                            <h1>Clínico Geral</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet et natus sapiente atque laborum, hic enim iusto corrupti consequatur? Possimus dolorum dicta quia libero doloremque! Quisquam voluptatum repudiandae beatae est!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-team">
+            <div class="container-team">
+                <h2 class="textcenter fontdisplay">Quem somos?</h2>
+                <p class="textcenter fontpadrao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim porro consectetur officiis. Repudiandae inventore consequuntur amet iure culpa.</p>
+
+                <div id="veterinaries">
+
+                <div class="team-thiago fontpadrao padding3rem">
+                    <img src="#" alt="Thiago">
+                    <h3>Dr. Thiago Petean</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa dolor delectus voluptatum ut, ex soluta aspernatur, at aut, amet rerum voluptates adipisci placeat eos.</p>
+                </div>
+
+                <div class="team-robson fontpadrao padding3rem">
+                    <img src="#" alt="Robson">
+                    <h3>Dr. Robson Mendes</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione laboriosam ut voluptatem laborum, iste cumque fuga dolore quaerat eligendi expedita eum totam laudantium eveniet iusto</p>
+                </div>
                 
-                <aside class="flex_column">
-                <ul class="lateral-numbers">
-                    <div class="number-side">
-                        <h1>3</h1>
-                            <div class="width_p">
-                            <li class="subtitle">Pet-Shop</li>
-                            <p class="text-p">Alimentos, Brindquedos, Acessórios tudo que o seu pet precisa</p>
-                            </div>
-                    </div>
-                </ul>
-                <ul class="lateral-numbers">
-                    <div class="number-side">
-                        <h1>4</h1>
-                            <div class="width_p">
-                            <li class="subtitle">Fármacia Veterínaria</li>
-                            <p class="text-p">Possuimos uma farmacia repleta de medicamentos para seu pet. Podendo parcelar em até 3x vezes sem juros.</p>
-                            </div>
-                    </div>
-                </ul>
-                </aside>
+                <div class="team-lucas fontpadrao padding3rem">
+                    <img src="#" alt="Lucas">
+                    <h3>Dr. Lucas Zanichelli</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat nisi asperiores animi quaerat vel iure rerum labore libero.</p>
+                </div>
+                </div>
+        </section>
+        <section id="section-location">
+            <div class="container-location">
+                <h1>Localização</h1>
+                    <div class="div-location">
 
-                </section>
-            </section>
-        <aside id="curiosities">
-            <h2 class="titles-main">Vida canina:</h2>
-            <picture>
-                <img src="images/cachorro-goldenpng300px.png" alt="cachorr" class="img_dog2">
-            </picture>
-        <div id="life-dog">
-            <div class="fases">
-        <h3>Filhotes</h3>
-        <p>Precisam de ração de filhote com bastante protéina e cálcio para um crescimento saudável</p>
+                        <img src="images/icons/location/add_location_fill1_24px.svg" alt="icone Localização" class="icon">
+                        <address><a href="https://goo.gl/maps/UXKT77YjUg99tLG88" target="_blank" rel="maps">Av. Esther Moretzhon Camargo, 153 Jardim Santana</a></address>
+
+                        <img src="images/icons/location/calendar_today_fill1_24px.svg" alt="" class="icon">
+                        <p><a href="#" id="goToUp">Horário de atendimento</a></p>
+                        
+                        <img src="images/icons/location/call_fill1_24px.svg" alt="" class="icon">
+                        <p>(19) 3296-0258</p>
+                    </div>
+
+                <div class="iframe-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919.1616920145628!2d-47.0411345480618!3d-22.852554565201427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c5c83d725c03%3A0x13c0b4e9683fce66!2sMarquinhos%20PetShop!5e0!3m2!1spt-BR!2sbr!4v1656892255260!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!--<img src="images/dogs/cães-e-gatos-sobrebandeira-totaltransparent.png" class="dog-pic-footer" alt="">-->
             </div>
-            <div class="fases">
-        <h3>Adultos</h3>
-        <p>Após completarem 1 ano são considerados adultos, podendo migrar para uma ração específica para adultos, de acordo com o porte do seu pet, podendo ser de raças pequenas, médias ou grandes!</p>
-            </div>
-            <div class="fases">
-        <h3>Sênior</h3>
-        <p>A idade chegou pois então, nessa fase o recomendado é usar uma ração Sênior, para prevenir alguns sintomas da idade como: Problemas de articulação, Sobrepeso, Dentição gasta.</p>
-            </div>
-        </div>
-        </aside>
+
+        </section>
     </main>
-    <footer id="header" class="text-p p_color">
-        <p>Site desenvolvido por <a href="https://github.com/1stRodrigo" class="links-me" target="_blank">Rodrigo Oliveira</a></p>
+    <footer class="fontpadrao fontbold gradiente-principal">
+            <div class="footer_img">
+                <a href="#" class="footer-logo"><img src="images/logo/drpetean-logoSquareWhite2.png" alt="logo-DrPetean"></a>
+            </div>
+            <div class="footer-section">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Agendar</a></li>
+                    <li><a href="#" id="goToUp">Horário de atendimento</a></li>
+                </ul>
+                    <p class="developed-footer textcenter">Site desenvolvido por Rodrigo Oliveira</p>
+            </div>
     </footer>
-    
- <script src="script.js"></script>
+<a target="_blank" href="https://icons8.com/icon/6sxcJH0Urh0h/eppendorf"></a>
+<script src="menu.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
